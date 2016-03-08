@@ -1,0 +1,202 @@
+/*	小栏目css样式	*/
+body{font-family: "Microsoft YaHei"!important; background:#FFF; overflow-X:hidden;}
+.ico-ch{background-image:url(http://source.aigegou.com/img/ch-ico.png);_background-image:url(http://source.aigegou.com/img/ch-ico.gif);}
+.ico-telp{ width:14px; height:20px; display:inline-block; margin:0px 5px 0px 0px; vertical-align:middle;}
+.ico-code{ width:20px; height:20px; display:inline-block; margin:0px 5px 0px 0px; vertical-align:middle; background-position:-14px 0px;}
+.menu-wrap{ width:1160px; height:80px; margin:0px auto; overflow:hidden; text-align:left; font-size:18px; line-height:80px; overflow:hidden;}
+.menu-wrap a{ color:#333; display:inline-block; margin-left:50px;}
+.menu-wrap a.active,.menu-wrap a:hover{ color:#F00;}
+.menu-wrap img{ margin:0px 50px 0px 0px; vertical-align: middle;}
+.train-banner{ width:100%; margin:0px auto; height:200px; background:#e3f1fe url(http://source.aigegou.com/img/train_banner.jpg) center center no-repeat;}
+.train-body{ background:#EEE; margin:0; overflow:hidden;}
+.train-position{width:1160px; margin:15px auto 15px auto; text-align:left; font-size:14px; color:#999;}
+.train-position a{ color:#999; display:inline-block; margin-right:5px;margin-left:5px;}
+dl.train-contant{ width:1160px; margin:0px auto;}
+dl.train-contant dt{ display:block; height:45px; line-height:45px; background:#FFF; border-top:2px solid #F00; border-bottom:1px solid #dcdcdc; text-align:left; font-size:18px; color:#333; overflow:hidden;}
+.ico-imooc{ width:14px; height:20px; display:inline-block; margin:0px 10px 0px 10px; vertical-align:middle; background-position:-34px 0px;}
+.ico-dls{ width:20px; height:20px; display:inline-block; margin:0px 10px 0px 10px; vertical-align:middle; background-position:-48px 0px;}
+dl.train-contant dd{ display:block; background:#FFF; overflow:hidden;}
+dl.train-contant dd ul{ width:1160px; margin:15px auto 15px auto; overflow:hidden;}
+dl.train-contant dd ul li{ width:334px; height:185px; overflow:hidden; float:left; margin:0px 26px 20px 26px; }
+dl.train-contant dd ul li a{ display:block;position:relative;}
+.btn-play{ position:absolute;width:334px; height:185px; background:url(http://source.aigegou.com/img/btn-play.png) center bottom no-repeat; left:0px; top:0px; cursor:pointer;}
+.train-menu{ width:200px; float:left; margin:20px; border:2px solid #e93939;text-align:left;font-size:18px;}
+.train-menu .title{ height:40px; line-height:40px; background:#e93939; color:#FFF; padding-left:15px; }
+.train-menu a{ color:#666; display:block; height:45px; line-height:45px; border-bottom:1px solid #EEE;padding-left:15px;}
+.train-menu a.active,.train-menu a:hover{background:#f85d5d; color:#FFF;}
+.train-container{ width:880px; float:right; margin:20px 20px 0px 0px; overflow:hidden;}
+.train-submenu{ background:#e9e9e9; border:1px solid #dcdcdc; padding:20px 10px 20px 10px; text-align:left; margin:0; overflow:hidden;}
+.train-submenu a{ display:block; width:230px; height:35px; line-height:35px; text-align:left; padding:0px 10px 0px 10px; margin:0px 30px 10px 0px; color:#666; float:left; background:#FFF; font-size:14px; overflow:hidden;}
+.train-submenu a.active,.train-submenu a:hover{ background:#fa6a0b; color:#FFF;}
+.train-download{ width:100%; height:63px; margin:0px; text-align:left; overflow:hidden; margin-top:10px;}
+.ico-files{ font-size:18px; height:63px; line-height:63px;color:#666; float:left; padding-left:70px; background:url(http://source.aigegou.com/img/ico-files.gif) left center no-repeat;}
+.ico-files1{ font-size:18px; height:63px; line-height:63px;color:#666; float:left; padding-left:70px; background:url(http://source.aigegou.com/img/word.jpg) left center no-repeat;}
+.ico-files2{ font-size:18px; height:63px; line-height:63px;color:#666; float:left; padding-left:70px; background:url(http://source.aigegou.com/img/xls.png) left center no-repeat;}
+.download-wrap{ float:right; font-size:14px; color:#999; height:63px; line-height:63px;}
+.download-wrap a{ display:inline-block; margin-left:10px; width:120px; height:50px; line-height:50px; font-size:18px; color:#FFF; text-align:center; background:#e93939; border-radius:5px;}
+.download-wrap a:hover{ background:#d02020;}
+#PDFREADER{ width:880px; height:500px; background:#F0F0F0; overflow:scroll;}
+.codeimg{ display:block;position:absolute; right:-40px; top:35px; border:4px solid #333; border-radius:5px; display:none; z-index:99999;}
+.small-v-wrap{ width:880px; margin:0px auto 20px auto;}
+.smallv{ width:280px; overflow:hidden; position:relative; float:left; text-align:center; font-size:14px; color:#666; line-height:22px;}
+.smallv img{ width:280px; height:155px; margin-bottom:5px;}
+.smallv a{ width:280px; display:block; height:205px; position:absolute; left:0px; top:0px; background:url(http://source.aigegou.com/img/ico-play.gif) center 40px no-repeat;}
+.spax20{ width:20px; height:20px; float:left; margin:0;}
+.train-appearance{ width:100%; height:40px;  border-bottom:1px solid #e93939; background:#EEE;}
+.train-appearance a{ display:block; height:40px;line-height:40px; float:left; font-size:20px; color:#333; padding:0px 20px 0px 20px;}
+.train-appearance a:hover,.train-appearance a.active{ background:#e93939; color:#FFF;}
+.train-index-banner{ width:1200px; height:400px; margin:0px auto;}
+.train-index-banner1{ width:100%; height:811px; margin:0px auto;}
+.train-top-line{ width:100%; height:1px; background:#dcdcdc; overflow:hidden;}
+/*幻灯片*/
+.ck-slide { width: 1200px; height: 400px; margin: 0 auto;}
+.ck-slide1 { width: 100%; height: 811px; margin: 0 auto;}
+.ck-slide ul.ck-slide-wrapper { height: 400px;}
+.ck-slide ul.ck-slide-wrapper1 { height: 811px;}
+.train-index-wrap{ width:1200px; margin:20px auto 0px auto;}
+.train-index-wrap-right{ width:290px; float:right; background:#f9f9f9; padding:15px; text-align:left; font-size:18px; line-height:36px; color:#666;}
+.train-index-wrap-left{ width:880px; float:left;}
+.train-index-modle{ width:416px; float:left; margin-right:20px; border:2px solid #e5e5e5; overflow:hidden; margin-bottom:20px; height:450px;}
+.modle-text{ margin:5px auto; line-height:30px; font-size:18px; color:#666; text-align:left; padding:0px 12px 0px 12px;}
+.modle-tex strong{ font-size:24px; color:#333;}
+a.btn--m-train{ display:inline-block; border-radius:4px; background:#ffbd1d; font-size:18px; margin:10px auto 10px auto; color:#833e15; height:40px; line-height:40px; padding:0px 15px 0px 15px;}
+.train-index-wrap-right strong{ display:block; font-size:24px; color:#333; margin:10px 0px 10px 0px;}
+/*	news	*/
+.news-wrap{ width:1060px; margin:30px auto; overflow:hidden;}
+.news-left-container{ float:left; width:587px; text-align:left;}
+.news-right-container{ float:right; width:400px;text-align:left;}
+h2.news-title{ font-size:24px; color:#333; margin-bottom:20px;}
+.news-dis{ font-size:24px; line-height:38px; font-weight:100; color:#dd3131;}
+.news-date{ color:#999; font-size:14px;}
+.news-model{ padding-bottom:30px; margin-bottom:30px; border-bottom:1px dotted #cbcbcb; color:#666; font-size:14px; line-height:30px;}
+.news-model a{ color:#666;}
+.news-model strong{ font-weight:100;}
+.news-model img{ float:left; margin-right:10px;}
+.news-container{ width:1062px; margin:0px auto; overflow:hidden;}
+.news-wrap{ width:1000px; margin:10px auto; overflow:hidden; border:1px solid #dcdcdc; padding:30px; text-align:left; font-size:14px; color:#333; line-height:26px;}
+.news-wrap h1{ font-size:24px; text-align:center; color:#666; font-weight:100;}
+.news-wrap-small{ font-size:14px; color:#999; margin:20px auto 20px auto; text-align:center;}
+.story-wrap{ width:100%; overflow:hidden; margin:0px auto; background:#327bc2 url(http://source.aigegou.com/img/a/bg.jpg) center top no-repeat;}
+.story-banner{ width:1050px; height:400px; margin:412px auto 0px auto;}
+.story-container{ width:1000px;margin:0px auto; overflow:hidden; background:#FFF; padding:30px 25px 30px 25px;}
+.story-left{ float:left; width:580px;text-align:left;}
+.story-right{ float:right; width:360px; text-align:left;}
+.hot-wrap{ width:100%; overflow:hidden; margin:0px auto; background:#110833 url(http://source.aigegou.com/img/a/bg1.jpg) center top no-repeat;}
+.hot-banner{ width:1002px; height:393px; margin:430px auto 0px auto; position:relative;}
+.hot-container{ width:802px;margin:0px auto; overflow:hidden; background:#FFF; padding:30px 100px 30px 100px; text-align:left; line-height:30px; color:#333; font-size:14px;}
+.hot-container h4{ display:block;font-size:24px; font-weight:100; margin:0; padding:0;margin-bottom:15px; margin-top:30px;}
+a.hot-play{ display:block; width:1002px; height:393px; position:absolute; left:0px; top:0px; background:url(http://source.aigegou.com/img/ico-play.gif) center center no-repeat;}
+.float-right{ position:absolute; width:348px; height:458px; background:url(http://source.aigegou.com/img/a/float-right.png);_background:url(http://source.aigegou.com/img/a/float-right.gif); right:-370px; top:0px;}
+.hot-video-wrap{ width:100%; background:#EEE; padding:30px 0px 30px 0px; overflow:hidden;}
+.hot-boos-wrap{ width:100%; background:#FFF; padding:30px 0px 30px 0px; overflow:hidden;}
+.boss-wrap{ width:1050px; margin:0px auto 60px auto; height:200px; overflow:hidden; text-align:left; font-size:18px; color:#666; line-height:34px;}
+.boss-wrap img{ display:block; float:left; margin-right:60px;}
+/* tFocus */
+#tFocus-btn li.active,#tFocus-leftbtn,#tFocus-rightbtn{display:block;background:url(http://source.aigegou.com/img/a/flash/spr.png) no-repeat;}
+#tFocus{width:1200px;height:1020px;overflow:hidden;margin:30px auto 0 auto;}
+#tFocus-pic{width:1200px;height:800px;position:relative;}
+#tFocus-pic li{width:1200px;height:800px;position:absolute;left:0;top:0;filter:alpha(opacity:0);opacity:0;}
+#tFocusBtn{width:1200px;height:214px;margin-top:5px;z-index:20;overflow:hidden;}
+#tFocus-btn{width:1200px;height:214px;position:relative;left:0;bottom:0;overflow:hidden;float:left;}
+#tFocus-btn ul{width:100000px;position:absolute;left:0;top:0;}
+#tFocus-btn li{height:207px;width:300px;padding-top:7px;display:block;float:left; overflow:hidden;}
+#tFocus-btn li img{border:2px solid #dddddd}
+#tFocus-btn li.active{background-position:-348px -100px;}
+#tFocus-btn li.active img{border:2px solid #40b9e5}
+/*#tFocus-leftbtn,#tFocus-rightbtn{height:40px;margin-top:18px;width:15px;float:left;text-indent:-9999px;}
+#tFocus-leftbtn{margin-right:5px;background-position:-455px -60px;}
+#tFocus-rightbtn{background-position:-480px -60px;}*/
+.bschool-wrap{ width:100%; height:565px; margin:0px auto; overflow:hidden; text-align:left;}
+.ck-slide-sb{ width: 1920px; height: 565px; margin: 0 auto;text-align:left; overflow:hidden;}
+.bs-banner1{ width:100%; height:565px; overflow:hidden; /*background:url(http://source.aigegou.com/img/a/index1.jpg?Math.random()) center center no-repeat;*/}
+.bs-banner2{ width:100%; height:565px; overflow:hidden; background:url(http://source.aigegou.com/img/a/index2.jpg) center center no-repeat;}
+.bs-banner3{ width:100%; height:565px; overflow:hidden; background:url(http://source.aigegou.com/img/a/index3.jpg) center center no-repeat;}
+.bs-banner1 .text{ margin:410px auto 0px auto; color:#FFF; font-size:36px; text-align:center;}
+.bs-banner1 .text a{ display:block; margin:20px auto;}
+.bs-banner2-wrap{ width:100%; margin:0px auto; overflow:hidden; height:699px;background:url(http://source.aigegou.com/img/a/index4.jpg) center center no-repeat; margin-top:-1px;}
+.bs-banner2-wrap .text{ margin:140px auto 0px auto; color:#FFF; font-size:36px;}
+ul.bs-model{ width:1000px; margin:0px auto; overflow:hidden;}
+ul.bs-model li{ width:220px; float:left; overflow:hidden; text-align:center; color:#FFF; line-height:20px;}
+ul.bs-model li.sp-x-40{ width:40px; height:130px;}
+.bs-ico{ width:135px; height:135px; margin:0px auto 20px auto; background:url(http://source.aigegou.com/img/a/ico.png) no-repeat;}
+.bsico1{ background-position:-405px -135px;}
+.bsico2{ background-position:-270px -135px;}
+.bsico3{ background-position:-135px -135px;}
+.bsico4{ background-position:0px -135px;}
+.bsico1-1{ background-position:-405px 0px;}
+.bsico2-1{ background-position:-270px 0px;}
+.bsico3-1{ background-position:-135px 0px;}
+.bsico4-1{ background-position:0px 0px;}
+.bs-banner4-wrap{ width:100%; overflow:hidden; height:694px; margin:0px auto; text-align:left;}
+.bs-banner4{width:100%; height:694px; overflow:hidden;/* background:url(http://source.aigegou.com/img/a/index5-1.jpg) center center no-repeat;*/ text-align:center;}
+.bs-banner5{width:100%; height:694px; overflow:hidden;/* background:url(http://source.aigegou.com/img/a/index5-2.jpg) center center no-repeat;*/}
+.bs-posi{ width:890px; margin:0px auto; position:relative;}
+.bs-banner4 a{ position:absolute; right:0px; top:600px;}
+.disblock{ display:block;}
+a.banner6-btn{ display:block; width:216px; height:62px;position:absolute; right:160px; top:360px; z-index:10000;}
+a.banner7-btn{ display:block; width:216px; height:62px;position:absolute; left:40px; bottom:150px; z-index:10000;}
+.bottomdiv{ width:100%; position:relative; overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
