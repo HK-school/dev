@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-.hcon .btnFE{ background:#D9D6CE url(../img/arrow_u.png) 77px 11px no-repeat;}
-.hcon .btnFE.bg{ background:#D9D6CE url(../img/arrow_d.png) 77px 11px no-repeat;}
-.btnFEDiv ul li a.current{ background:#DD3030; color:#fff;}
-.btnFEDiv ul li a:hover{ background:#DD3030; color:#fff;}
