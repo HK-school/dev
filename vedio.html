@@ -12,6 +12,95 @@
     <meta content="black" name="apple-mobile-web-app-status-bar-style" />
     <link href="css/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/vedio.css" rel="stylesheet" type="text/css" />
+    <style>
+    .vedio {
+        max-width: 1000px;
+        width: 100%;
+        margin: 30px 0;
+    }
+    
+    .vedio-title {
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .player {
+        width: 100%;
+        position: relative;
+    }
+    
+    .vedio video {
+        width: 650px;
+        height: 340px;
+        background: #333;
+        margin: 5px 0;
+    }
+    
+    .vedio-roll {
+        width: 350px;
+        height: 340px;
+        background: #333;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        box-sizing: border-box;
+        border-left: 1px solid #222;
+    }
+    
+    .vr-title {
+        color: #ddd;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+        margin-left: 10px;
+        font-family: '微软雅黑';
+    }
+    
+    .vedio-roll ul li {
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+    }
+    
+    ul li .left {
+        padding: 10px 15px;
+        width: 120px;
+        height: 80px;
+        float: left;
+    }
+    
+    ul li .right {
+        padding: 10px 0;
+        width: 190px;
+        height: 80px;
+        float: left;
+        color: #ddd;
+        font-size: 14px;
+    }
+    
+    ul li .right p {
+        margin-top: 5px;
+        word-spacing: 16px;
+    }
+    
+    ul li .right span {
+        vertical-align: top;
+        margin-left: 5px;
+    }
+    
+    ul li .left img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    
+    .active {
+        background: #2aabe6;
+    }
+    </style>
 </head>
 
 <body>
@@ -59,6 +148,92 @@
                     <li class="num-1">公众频道</li>
                 </ul>
             </div>
+        </div>
+        <div class="vedio">
+            <div class="vedio-title">
+                <p>爱个购鸣谢片</p>
+            </div>
+            <div class="player">
+                <video width="640" height="340" controls="controls">
+                    <source src="mp4/1.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+                <div class="vedio-roll">
+                    <p class="vr-title">选集</p>
+                    <ul>
+                        <li class="active">
+                            <div class="left">
+                                <img src="img/data/img1.jpg" alt="">
+                            </div>
+                            <div class="right">
+                                <p>合肥大学生老师合肥大学生老师</p>
+                                <p><img src="img/times.jpg" alt=""><span>2890</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <img src="img/data/img1.jpg" alt="">
+                            </div>
+                            <div class="right">
+                                <p>合肥大学生老师合肥大学生老师</p>
+                                <p><img src="img/times.jpg" alt=""><span>2890</span></p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="left">
+                                <img src="img/data/img1.jpg" alt="">
+                            </div>
+                            <div class="right">
+                                <p>合肥大学生老师合肥大学生老师</p>
+                                <p><img src="img/times.jpg" alt=""><span>2890</span></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hot">
+        <p class="hot-title">热门课程</p>
+        <div class="hot-class">
+            <ul>
+                <li>
+                    <div class="hot-class-img">
+                        <img src="img/data/img1.jpg" />
+                    </div>
+                    <div class="hot-class-footer">
+                        <p>员工生日会</p>
+                        <p><span>13456</span>人学习</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-class-img">
+                        <img src="img/data/img2.jpg" alt="">
+                    </div>
+                    <div class="hot-class-footer">
+                        <p>爱个够购大事记</p>
+                        <p><span>4903</span>人学习</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-class-img">
+                        <img src="img/data/img3.jpg" alt="">
+                    </div>
+                    <div class="hot-class-footer">
+                        <p>招商会花</p>
+                        <p><span>1569</span>人学习</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="hot-class-img">
+                        <img src="img/data/img4.jpg" alt="">
+                    </div>
+                    <div class="hot-class-footer">
+                        <p>爱个购：鸣谢代理商篇</p>
+                        <p><span>23456</span>人学习</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="clear"></div>
         </div>
     </div>
     <div class="footer">

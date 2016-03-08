@@ -35,4 +35,13 @@ define(['jquery'], function($) {
         }
     }
 
+    //加上播放的图片
+    $('.hot-class-img').hover(function() {
+        $(this).append("<img class='hci-img' src='img/ic-vedio.png' />");
+        $(this).children('.hci-img').fadeIn(500);
+    }, function() {
+        console.log(this);
+        $(this).children('.hci-img').remove();
+    });
+
 });

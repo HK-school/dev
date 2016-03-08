@@ -1,7 +1,7 @@
 define(['jquery'], function($) {
     $('.course').hover(function() {
-        $(this).children('.more').fadeIn(500);
+        $(this).children('.more').slideDown(300);
     }, function() {
-        $(this).children('.more').fadeOut(500);
+        $(this).children('.more').slideUp(100);
     });
 })

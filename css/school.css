@@ -469,3 +469,22 @@ ul.f-nav li a {
 .clear {
     clear: both;
 }
+.hot-class-img{
+    position:relative;
+    height:145px;
+    width:238px;
+    padding:0 1px;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+}
+.hot-class-img img{
+    width:100%;
+}
+.hci-img{
+    display:none;
+    position:absolute;
+    top:0;left:0;
+    z-index: 1;
+}
