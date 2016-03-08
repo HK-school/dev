@@ -4,5 +4,4 @@ define(['jquery'], function($) {
     }, function() {
         $(this).children('.more').fadeOut(500);
     });
-    
 })

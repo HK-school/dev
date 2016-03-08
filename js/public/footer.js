@@ -1,8 +1,5 @@
 define(['jquery'], function($) {
-    var h = $(window).height(); //整个屏幕的高度;
-
     window.onscroll = function() {
-        console.log($(window).scrollTop());
         if ($(window).scrollTop() >= 500) {
             $('.go_up').show();
         } else {

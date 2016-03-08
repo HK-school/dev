@@ -351,7 +351,7 @@ ul.f-nav li a {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    display:none;
+    display: none;
 }
 
 .go_up a {
@@ -370,4 +370,102 @@ ul.f-nav li a {
 .go_up a:hover {
     background: url(http://source.aigegou.com/img/arrow_up_w.png) center center no-repeat #000;
     background-size: 50% auto;
+}
+
+.main-show {
+    width: 100%;
+    background: #eef1f2;
+}
+
+.main-show ul li {
+    height: 360px;
+}
+
+.main-show ul li .left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.main-show ul li .right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.main-show-contain {
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-show ul li:nth-child(2n) {
+    background: #fff;
+}
+
+.hot {
+    background: #edeff0;
+}
+
+.hot-title {
+    padding: 20px 0 30px 0;
+    text-align: center;
+    color: #2aabe6;
+    font-size: 28px;
+    font-family: '微软雅黑';
+}
+
+.hot-class {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hot-class ul li {
+    width: 240px;
+    height: 215px;
+    float: left;
+    margin: 0 5px 20px 5px;
+    background: #f9f9f9;
+    border-left: 1px solid #dddfe0;
+    border-right: 1px solid #dddfe0;
+    box-shadow: 0px 1px 2px #c3c5c6;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    position: relative;
+}
+
+.hot-class-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    background: #fff;
+}
+
+.hot-class-footer p {
+    padding-top: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.hot-class-footer p:nth-child(1) {
+    color: #666;
+    font-size: 14px;
+}
+
+.hot-class-footer p:nth-child(2) {
+    color: #999;
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
 }
