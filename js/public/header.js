@@ -1,11 +1,11 @@
-define(['jquery'], function($) {
-    $('body').on('mouseover', '.course', function() {
+define(['jquery'],function($) {
+    $('body').on('mouseover','.course', function() {
         $(this).children('.more').slideDown(300);
     })
-    $('body').on('mouseout', '.course', function() {
+    $('body').on('mouseleave','.course', function() {
         $(this).children('.more').slideUp(100);
     })
-
+    
     //加上播放的图片
     $('.hot-class-img').hover(function() {
         $(this).append("<img class='hci-img' src='img/ic-vedio.png' />");
@@ -49,7 +49,7 @@ define(['jquery'], function($) {
             "<a href='#'>专业文化类</a>" +
             "</div>" +
             "</li>" +
-            "<li><a href='#'>资料下载</a></li>" +
+            "<li><a href='resourdownload.html'>资料下载</a></li>" +
             "<li><a href='#'>讲师风采</a></li>" +
             "<li><a href='#'>关于我们</a></li>" +
             "</ul>" +
@@ -61,7 +61,7 @@ define(['jquery'], function($) {
     }
     $('body').prepend(head_htm());
 
-    //头部公共部分
+    //底部公共部分
     function foot_htm(tmpl) {
         var tmpl = "<div class='footer'>" +
             "<div class='foot-con'>" +
