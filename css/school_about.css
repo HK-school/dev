@@ -14,7 +14,7 @@ html,
 body {
     color: #666;
     font-size: 62.5%;
-    font-family: "微软雅黑";
+    font-family: "Century Gothic", "Microsoft YaHei", "SimSun", "Segoe UI", "Times New Roman";
 }
 
 a {
@@ -144,88 +144,6 @@ li {
     line-height: 36px;
 }
 
-
-/**中间列表**/
-
-.teacher-list {
-    padding-top: 60px;
-    width: 100%;
-    max-width: 1032px;
-    margin: 0 auto;
-}
-
-.teacher-list li {
-    position: relative;
-    width: 100%;
-    height: 335px;
-    background: url("../img/tlist-bg.png") no-repeat;
-    background-size: 100%;
-}
-
-.teacher-list .icon {
-    position: absolute;
-    right: 40px;
-    top: 8px;
-    width: 26px;
-    height: 49px;
-    /*background:url("../img/ic-t-list1.png") no-repeat;*/
-}
-
-.teacher-list li:nth-child(3n-2) .icon {
-    background: url("../img/ic-t-list1.png") no-repeat;
-}
-
-.teacher-list li:nth-child(3n-1) .icon {
-    background: url("../img/ic-t-list2.png") no-repeat;
-}
-
-.teacher-list li:nth-child(3n) .icon {
-    background: url("../img/ic-t-list3.png") no-repeat;
-}
-
-.teacher-list .img {
-    position: absolute;
-    top: 40px;
-    left: 30px;
-    width: 160px;
-    height: 196px;
-    border-radius: 4px;
-    overflow:hidden;
-    box-shadow: 1px 0 3px #ccc;
-}
-
-.teacher-list img {
-    width: 100%;
-    height: 100%;
-}
-
-.teacher-list .info {
-    padding: 40px 74px 0 242px;
-}
-
-.teacher-list h2 {
-    font-size: 18px;
-    color: #333;
-    font-weight: normal;
-    line-height: 30px;
-}
-
-.teacher-list h2 span {
-    font-weight: bold;
-    padding-right: 40px;
-}
-
-.teacher-list p {
-    padding-top: 60px;
-    color: #666666;
-    font-size: 16px;
-    line-height: 24px;
-    height: 120px;
-    overflow: hidden;
-}
-
-
-/**底部**/
 
 .footer {
     background: #3b434a;
@@ -388,8 +306,26 @@ ul.f-nav li a {
     background: url(http://source.aigegou.com/img/arrow_up_w.png) center center no-repeat #000;
     background-size: 50% auto;
 }
-
-.actives {
-    color: #fff;
-    background: #2aabe6;
+.main{
+    padding-top:140px;
+    max-width: 1000px;
+    min-height: 560px;
+    width:100%;
+    margin:0 auto;
+    font-size: 16px;
+    line-height: 32px;
+    color:#666;
+}
+.about-desc p{
+    text-indent: 32px;
+}
+.about-info {
+    padding:60px 0;
+}
+.about-info li{
+    padding-bottom:20px;
+}
+.about-info span{
+    font-weight: bold;
+    color:#333;
 }
