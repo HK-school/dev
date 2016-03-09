@@ -4,7 +4,6 @@ define(['jquery'], function($) {
     }, function() {
         $(this).removeClass('rotateFox').addClass('rotateFox1');
     });
-
     //main-show的动画加载
     var show = {
         show_1: $('#main-show-1'),
@@ -34,14 +33,10 @@ define(['jquery'], function($) {
             show.show_4.children('.main-show-contain').children('.right').addClass('animated fadeInRight');
         }
     }
-
-    //加上播放的图片
-    $('.hot-class-img').hover(function() {
-        $(this).append("<img class='hci-img' src='img/ic-vedio.png' />");
-        $(this).children('.hci-img').fadeIn(500);
-    }, function() {
-        console.log(this);
-        $(this).children('.hci-img').remove();
-    });
-
+    //播放视频的跳转
+    $('.hot-class ul li').click(function(){
+        var num = $(this).index();
+        console.log(num);
+        window.location.href='vedio.html?'+num;
+    })
 });

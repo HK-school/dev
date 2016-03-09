@@ -48,6 +48,7 @@ li {
     clear: both;
 }
 
+
 /*头部*/
 
 .header {
@@ -142,72 +143,89 @@ li {
 .course .more a {
     line-height: 36px;
 }
+
+
 /**中间列表**/
+
 .teacher-list {
-    padding-top:60px;
-    width:100%;
+    padding-top: 60px;
+    width: 100%;
     max-width: 1032px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.teacher-list li{
+
+.teacher-list li {
     position: relative;
-    width:100%;
-    height:335px;
-    background:url("../img/tlist-bg.png") no-repeat;
-    background-size:100%;
+    width: 100%;
+    height: 335px;
+    background: url("../img/tlist-bg.png") no-repeat;
+    background-size: 100%;
 }
-.teacher-list .icon{
+
+.teacher-list .icon {
     position: absolute;
-    right:40px;
-    top:8px;
-    width:26px;
-    height:49px;
+    right: 40px;
+    top: 8px;
+    width: 26px;
+    height: 49px;
     /*background:url("../img/ic-t-list1.png") no-repeat;*/
 }
-.teacher-list li:nth-child(3n-2) .icon{
-    background:url("../img/ic-t-list1.png") no-repeat;
+
+.teacher-list li:nth-child(3n-2) .icon {
+    background: url("../img/ic-t-list1.png") no-repeat;
 }
-.teacher-list li:nth-child(3n-1) .icon{
-    background:url("../img/ic-t-list2.png") no-repeat;
+
+.teacher-list li:nth-child(3n-1) .icon {
+    background: url("../img/ic-t-list2.png") no-repeat;
 }
-.teacher-list li:nth-child(3n) .icon{
-    background:url("../img/ic-t-list3.png") no-repeat;
+
+.teacher-list li:nth-child(3n) .icon {
+    background: url("../img/ic-t-list3.png") no-repeat;
 }
-.teacher-list .img{
+
+.teacher-list .img {
     position: absolute;
-    top:40px;
-    left:30px;
-    width:160px;
-    height:196px;
+    top: 40px;
+    left: 30px;
+    width: 160px;
+    height: 196px;
     border-radius: 4px;
-    overflow:hidden;
+    overflow: hidden;
 }
-.teacher-list img{
-    width:100%;
-    height:100%;
+
+.teacher-list img {
+    width: 100%;
+    height: 100%;
 }
-.teacher-list .info{
-    padding:40px 74px 0 242px;
+
+.teacher-list .info {
+    padding: 40px 74px 0 242px;
 }
-.teacher-list h2{
+
+.teacher-list h2 {
     font-size: 18px;
-    color:#333;
+    color: #333;
     font-weight: normal;
     line-height: 30px;
 }
-.teacher-list h2 span{
+
+.teacher-list h2 span {
     font-weight: bold;
     padding-right: 40px;
 }
-.teacher-list p{
-    padding-top:60px;
-    color:#666666;
+
+.teacher-list p {
+    padding-top: 60px;
+    color: #666666;
     font-size: 16px;
     line-height: 24px;
-    height:120px;
-    overflow:hidden;
+    height: 120px;
+    overflow: hidden;
 }
-    /**底部**/
+
+
+/**底部**/
+
 .footer {
     background: #3b434a;
     width: 100%;
@@ -349,7 +367,7 @@ ul.f-nav li a {
     width: 60px;
     height: 60px;
     overflow: hidden;
-    display:none;
+    display: none;
 }
 
 .go_up a {
@@ -368,4 +386,9 @@ ul.f-nav li a {
 .go_up a:hover {
     background: url(http://source.aigegou.com/img/arrow_up_w.png) center center no-repeat #000;
     background-size: 50% auto;
+}
+
+.actives {
+    color: #fff;
+    background: #2aabe6;
 }
