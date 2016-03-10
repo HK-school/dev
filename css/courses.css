@@ -428,18 +428,48 @@ ul.f-nav li a {
     position: relative;
     font-family: '微软雅黑';
 }
-.c-main-intro p{
+
+.c-main-img{
+    position: relative;
+}
+
+.c-main-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.c-main-intro p {
     margin-bottom: 10px;
 }
-.c-main-intro .p-1{
-    color:#333;
+
+.c-main-intro .p-1 {
+    color: #333;
     font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
 }
-.c-main-intro .p-2,.c-main-intro .p-3{
-    color:#999;
+
+.c-main-intro .p-2,
+.c-main-intro .p-3 {
+    color: #999;
     font-size: 12px;
 }
-.actives{
-    color:#fff;
-    background:#2aabe6;
+
+.actives {
+    color: #fff;
+    background: #2aabe6;
+}
+
+.hci-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }

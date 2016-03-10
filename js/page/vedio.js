@@ -1,7 +1,7 @@
 define(['jquery', 'private/list'], function($, li) {
     var str = (window.location.search);
     var strData = str.split('=');
-    vedioStart(strData[1], strData[2]);
+    vedioStart(strData[1], strData[2], strData[3]);
     //选择播放的视频交互效果
     $('body').on('click', '#vr-title-ul li', function() {
         $(this).addClass('active').siblings('li').removeClass('active');
@@ -40,11 +40,13 @@ define(['jquery', 'private/list'], function($, li) {
     }
 
     //刚开始加载时候的视频和列表;
-    function vedioStart(num, num1) {
+    function vedioStart(num, num1, num2) {
         var Num = parseInt(num) + 1;
+        var Num1 = parseInt(num2)-1;
         var num1 = eval(num1);
-        $('#player').html(video(num1[num].mp4));
-        $('#vr-title-ul').prepend(all_list(num1));
+        console.log(Num,Num1,num1)
+        $('#player').html(video(num1[num2][num].mp4));
+        $('#vr-title-ul').prepend(all_list(num1[Num1]));
         $("#vr-title-ul li:nth-child(" + Num + ")").addClass('active');
     }
 

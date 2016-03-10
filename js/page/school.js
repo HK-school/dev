@@ -39,6 +39,7 @@ define(['jquery'], function($) {
             $('.go_up').hide();
         }
     }
+    
     //播放视频的跳转
     $('.hot-class ul li').click(function(){
         var num = $(this).index();
