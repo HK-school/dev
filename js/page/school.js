@@ -44,6 +44,6 @@ define(['jquery'], function($) {
     $('.hot-class ul li').click(function(){
         var num = $(this).index();
         var num1 = 'school';
-        window.location.href='vedio.html?type='+num+'='+num1;
+        window.location.href='vedio.html?type='+num+'='+num1+'='+'';
     })
 });
