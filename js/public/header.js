@@ -40,7 +40,7 @@ define(['jquery'], function($) {
             "<a href='courses.html?5'>专业技能类</a>" +
             "</div>" +
             "</li>" +
-            "<li><a href='resourdownload.html'>资料下载</a></li>" +
+            "<li><a href='resourdownload.html?type=0'>资料下载</a></li>" +
             "<li><a href='teacher.html'>讲师风采</a></li>" +
             "<li><a href='school_about.html'>关于我们</a></li>" +
             "</ul>" +
