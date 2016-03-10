@@ -31,6 +31,12 @@ define(['jquery'], function($) {
         if ($(window).scrollTop() + screenH >= top4) {
             show.show_4.children('.main-show-contain').children('.left').addClass('animated fadeInLeft');
             show.show_4.children('.main-show-contain').children('.right').addClass('animated fadeInRight');
+        };
+        //go-up
+        if ($(window).scrollTop() >= 500) {
+            $('.go_up').show();
+        } else {
+            $('.go_up').hide();
         }
     }
     //播放视频的跳转

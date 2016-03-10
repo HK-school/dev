@@ -11,7 +11,7 @@ define(['jquery','private/list'], function($,li) {
     function list(tmpl){
      	var tmpl = "<li>"+
                         "<div class='left'>"+
-                            "<img src="+ tmpl.img +">"+
+                            "<img src="+ tmpl.img +"><span class='left-span'>"+ tmpl.mp4 +"</span>"+
                         "</div>"+
                         "<div class='right'>"+
                             "<p>"+ tmpl.titles +"</p>"+
@@ -29,4 +29,22 @@ define(['jquery','private/list'], function($,li) {
         return tmpl;
     }
     $('#vr-title-ul').prepend(all_list()); 
+
+    //页面视频播放模版
+    function video(src1){
+        var tmpl = "<video width='640' height='347' controls='controls'>"+
+                        "<source src="+ src1 +" type='video/mp4'>"+
+                        "Your browser does not support the video tag."+
+                   "</video>";
+        return tmpl;           
+    }
+
+    //刚开始加载时候的链接;
+    $('#player').html(video('http://7xntr9.media1.z0.glb.clouddn.com/agg_cctv.mp4'));
+
+    //选择播放的视频
+    $('body').on('click','#vr-title-ul li',function(){
+        var src = $(this).find('.left-span').html();
+        $('#player').html(video(src));
+    });
 });

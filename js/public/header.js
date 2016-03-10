@@ -1,11 +1,11 @@
-define(['jquery'],function($) {
-    $('body').on('mouseover','.course', function() {
+define(['jquery'], function($) {
+    $('body').on('mouseover', '.course', function() {
         $(this).children('.more').slideDown(300);
     })
-    $('body').on('mouseleave','.course', function() {
+    $('body').on('mouseleave', '.course', function() {
         $(this).children('.more').slideUp(100);
     })
-    
+
     //加上播放的图片
     $('.hot-class-img').hover(function() {
         $(this).append("<img class='hci-img' src='img/ic-vedio.png' />");
@@ -13,15 +13,6 @@ define(['jquery'],function($) {
     }, function() {
         $(this).children('.hci-img').remove();
     });
-
-    //go-up;
-    window.onscroll = function() {
-        if ($(window).scrollTop() >= 500) {
-            $('.go_up').show();
-        } else {
-            $('.go_up').hide();
-        }
-    };
 
     //title交互
     $('.num').click(function(event) {
@@ -34,26 +25,29 @@ define(['jquery'],function($) {
     //头部公共部分
     function head_htm(tmpl) {
         var tmpl = "<div class='header'>" +
-                "<div class='header-box'>" +
-                    "<a href='http://www.aigegou.com/' class='logo'></a>" +
-                        "<div class='h-nav'>" +
-                            "<ul>" +
-                                "<li><a href='school.html'>首页</a></li>" +
-                                "<li class='course'>" +
-                                    "<a href='courses.html'>课程体系</a>" +
-                                    "<div class='more'>" +
-                                        "<a href='#'>开拓市场</a>" +
-                                        "<a href='#'>管理类</a>" +
-                                        "<a href='#'>职业素养类</a>" +
-                                    "</div>" +
-                                "</li>" +
-                                "<li><a href='#'>资料下载</a></li>" +
-                                "<li><a href='teacher.html'>讲师风采</a></li>" +
-                                "<li><a href='school_about.html'>关于我们</a></li>" +
-                            "</ul>" +
-                        "</div>" +
-                    "<a class='login' href='#'>登录</a>" +
-                "</div>" +
+            "<div class='header-box'>" +
+            "<a href='#' class='logo'></a>" +
+            "<div class='h-nav'>" +
+            "<ul>" +
+            "<li><a href='school.html'>首页</a></li>" +
+            "<li class='course'>" +
+            "<a href='courses.html'>课程体系</a>" +
+            "<div class='more'>" +
+            "<a href='#'>开拓市场</a>" +
+            "<a href='#'>管理类</a>" +
+            "<a href='#'>职业素养类</a>" +
+            "<a href='#'>企业文化类</a>" +
+            "<a href='#'>专业文化类</a>" +
+            "</div>" +
+            "</li>" +
+            "<li><a href='resourdownload.html'>资料下载</a></li>" +
+            "<li><a href='teacher.html'>讲师风采</a></li>" +
+            "<li><a href='school_about.html'>关于我们</a></li>" +
+            "</ul>" +
+            "</div>" +
+            "<a class='login' href='#'>登录</a>" +
+            "</div>" +
+            // >>>>>>> 123
             "</div>";
         return tmpl;
     }
