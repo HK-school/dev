@@ -33,11 +33,11 @@ define(['jquery'], function($) {
             "<li class='course'>" +
             "<a href='courses.html'>课程体系</a>" +
             "<div class='more'>" +
-            "<a href='#'>开拓市场</a>" +
             "<a href='#'>管理类</a>" +
-            "<a href='#'>职业素养类</a>" +
+            "<a href='#'>开拓市场</a>" +
             "<a href='#'>企业文化类</a>" +
-            "<a href='#'>专业文化类</a>" +
+            "<a href='#'>职业素养类</a>" +
+            "<a href='#'>专业技能类</a>" +
             "</div>" +
             "</li>" +
             "<li><a href='resourdownload.html'>资料下载</a></li>" +

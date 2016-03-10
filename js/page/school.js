@@ -42,7 +42,7 @@ define(['jquery'], function($) {
     //播放视频的跳转
     $('.hot-class ul li').click(function(){
         var num = $(this).index();
-        console.log(num);
-        window.location.href='vedio.html?'+num;
+        var num1 = 'school';
+        window.location.href='vedio.html?type='+num+'='+num1;
     })
 });

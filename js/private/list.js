@@ -19,3 +19,45 @@ var lists = [{
     titles: '感谢员工02',
     num: '3401'
 }]
+
+var school = [{
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_cctv.mp4',
+    img: 'img/data/img1.jpg',
+    titles: '员工生日会',
+    num: '13456'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_ds.mp4',
+    img: 'img/data/img2.jpg',
+    titles: '2015年爱个购大事记',
+    num: '4903'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_agent_jj.mp4',
+    img: 'img/data/img3.jpg',
+    titles: '招商会花',
+    num: '1569'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_agent_jj.mp4',
+    img: 'img/data/img4.jpg',
+    titles: '爱个购：鸣谢代理商篇',
+    num: '23456'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_thanks.mp4',
+    img: 'img/data/img5.jpg',
+    titles: '爱个购:鸣谢员工篇',
+    num: '52456'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_news_sz.mp4',
+    img: 'img/data/img6.jpg',
+    titles: '苏州新闻:爱个购专访',
+    num: '7126'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_tz.mp4',
+    img: 'img/data/img7.jpg',
+    titles: '户外拓展集锦',
+    num: '1456'
+}, {
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_cctv.mp4',
+    img: 'img/data/img8.jpg',
+    titles: '爱个购央视宣传片',
+    num: '896'
+}]
