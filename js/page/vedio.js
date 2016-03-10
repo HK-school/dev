@@ -49,7 +49,8 @@ define(['jquery', 'private/list'], function($, li) {
             $('#player').html(video(num1[num].mp4));
             $('#vr-title-ul').html(all_list(num1));
         } else {
-            $('#player').html(video(num1[num2][num].mp4));
+            console.log(123)
+            $('#player').html(video(num1[Num1][num].mp4));
             $('#vr-title-ul').html(all_list(num1[Num1]));
         }
         $("#vr-title-ul li:nth-child(" + Num + ")").addClass('active');
