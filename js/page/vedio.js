@@ -42,11 +42,16 @@ define(['jquery', 'private/list'], function($, li) {
     //刚开始加载时候的视频和列表;
     function vedioStart(num, num1, num2) {
         var Num = parseInt(num) + 1;
-        var Num1 = parseInt(num2)-1;
+        var Num1 = parseInt(num2) - 1;
         var num1 = eval(num1);
-        console.log(Num,Num1,num1)
-        $('#player').html(video(num1[num2][num].mp4));
-        $('#vr-title-ul').prepend(all_list(num1[Num1]));
+        console.log(Num, num2, num1)
+        if (num2 == '') {
+            $('#player').html(video(num1[num].mp4));
+            $('#vr-title-ul').html(all_list(num1));
+        } else {
+            $('#player').html(video(num1[num2][num].mp4));
+            $('#vr-title-ul').html(all_list(num1[Num1]));
+        }
         $("#vr-title-ul li:nth-child(" + Num + ")").addClass('active');
     }
 
