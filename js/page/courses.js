@@ -4,7 +4,7 @@ define(['jquery', 'private/list'], function($, li) {
         var tmpl = "<li data-num=" + tmpl.row + ">" +
             "<p class='c-main-img'><img src=" + tmpl.img + "></p>" +
             "<div class='c-main-intro'>" +
-            "<p class='p-1'>" + tmpl.title1 + "</p>" +
+            "<p class='p-1'>" + tmpl.titles + "</p>" +
             "<p class='p-2'>" + tmpl.title2 + "</p>" +
             "<p class='p-3'><span>" + tmpl.num + "</span>已学习</p>" +
             "</div>" +

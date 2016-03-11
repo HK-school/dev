@@ -61,4 +61,12 @@ define(['jquery', 'private/list'], function($, li) {
         var src = $(this).find('.left-span').html();
         $('#player').html(video(src));
     });
+
+    //热门课程
+    $('.hot-class ul li').click(function(event) {
+        var _num = $(this).index();
+        $('#player').html(video(school[_num].mp4));
+        $('#vr-title-ul').html(all_list(school));
+        $("#vr-title-ul li:nth-child(" + (_num+1) + ")").addClass('active');
+    });
 });
