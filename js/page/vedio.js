@@ -49,24 +49,32 @@ define(['jquery', 'private/list'], function($, li) {
         if (num2 == '') {
             $('#player').html(video(num1[num].mp4));
             $('#vr-title-ul').html(all_list(num1));
+            $('.vedio-title p').html(num1[num].titles);
+
         } else {
             $('#player').html(video(num1[Num1][num].mp4));
             $('#vr-title-ul').html(all_list(num1[Num1]));
+            $('.vedio-title p').html(num1[Num1][num].titles);
         }
         $("#vr-title-ul li:nth-child(" + Num + ")").addClass('active');
+
     }
 
     //选择播放的视频
     $('body').on('click', '#vr-title-ul li', function() {
         var src = $(this).find('.left-span').html();
+        var _titles = $(this).find('.right p').html();
         $('#player').html(video(src));
+        $('.vedio-title p').html(_titles);
     });
 
     //热门课程
     $('.hot-class ul li').click(function(event) {
         var _num = $(this).index();
+        var _titles = $(this).find('.hot-class-footer p').html();
         $('#player').html(video(school[_num].mp4));
         $('#vr-title-ul').html(all_list(school));
         $("#vr-title-ul li:nth-child(" + (_num+1) + ")").addClass('active');
+        $('.vedio-title p').html(_titles);
     });
 });
