@@ -80,7 +80,7 @@ var course = [
         typer:'mp4',
         row:'1'
     },{
-        id:1,
+        id:2,
         url: 'http://source.aigegou.com/img/gl1.pdf',
         img: 'img/data/manager1.jpg',
         titles: '团队塑造：帮职业经理人打造高绩效团队',
