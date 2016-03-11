@@ -39,11 +39,11 @@ define(['jquery'], function($) {
             $('.go_up').hide();
         }
     }
-    
+
     //播放视频的跳转
-    $('.hot-class ul li').click(function(){
+    $('.hot-class ul li').click(function() {
         var num = $(this).index();
         var num1 = 'school';
-        window.location.href='vedio.html?type='+num+'='+num1+'='+'';
+        window.location.href = 'vedio.html?type=' + num + '=' + num1 + '=' + '';
     })
 });

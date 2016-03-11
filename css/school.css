@@ -188,9 +188,11 @@ li {
 }
 
 .banner {
+    height:538px;
     background: #2bb0ed;
     padding-top: 60px;
     text-align: center;
+    position:relative;
 }
 
 .box1 {
@@ -488,3 +490,27 @@ ul.f-nav li a {
     top:0;left:0;
     z-index: 1;
 }
+.banner-show{
+    display:none;
+}
+#banner-ul{
+    width:30px;
+    height:20px;
+    position:absolute;
+    bottom:20px;
+    left:50%;
+    margin-left: -15px;
+}
+#banner-ul li{
+    width:8px;
+    height:8px;
+    background:#fff;
+    border-radius: 4px;
+    float: left;
+}
+.li-on{
+    background:#1f88b8 !important;
+}
+#banner-ul li:nth-child(2){
+    margin-left:14px;
+};
