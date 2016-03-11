@@ -340,7 +340,7 @@ var course = [
     // 专业技能类
     [{
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj01.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin1.jpg',
         titles: '微运营进阶课程の底部二维码动图制作1',
         title2: '',
         num: '8934',
@@ -348,7 +348,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj02.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin2.jpg',
         titles: '微运营进阶课程の美工软件演示2',
         title2: '',
         num: '8934',
@@ -356,7 +356,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj03.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin3.jpg',
         titles: '微运营进阶课程の素材收集3',
         title2: '',
         num: '8934',
@@ -364,7 +364,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj04.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin4.jpg',
         titles: '微运营进阶课程の图文编排第一讲4',
         title2: '',
         num: '8934',
@@ -372,7 +372,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj05.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin5.jpg',
         titles: '微运营进阶课程の图文编排第二讲5',
         title2: '',
         num: '8934',
@@ -380,7 +380,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj06.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin6.jpg',
         titles: '微运营进阶课程の图文编排第三讲6',
         title2: '',
         num: '8934',
@@ -388,7 +388,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj07.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin7.jpg',
         titles: '微运营进阶课程の图文编排第四讲7',
         title2: '',
         num: '8934',
@@ -396,7 +396,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_jj08.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin8.jpg',
         titles: '微运营进阶课程の图文编排第五讲8',
         title2: '',
         num: '8934',
@@ -404,7 +404,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_cj01.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin9.jpg',
         titles: '微运营课程の微信初级7（管理模块讲解）',
         title2: '',
         num: '8934',
@@ -412,7 +412,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_cj03.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin10.jpg',
         titles: '微运营课程の微信初级9（设置&开发模块）',
         title2: '',
         num: '8934',
@@ -420,7 +420,7 @@ var course = [
         row:'5'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/wx_cj04.mp4',
-        img: 'img/data/job8.jpg',
+        img: 'img/data/weixin11.jpg',
         titles: '微运营课程の微信初级10(手机微信APP使用)',
         title2: '',
         num: '8934',

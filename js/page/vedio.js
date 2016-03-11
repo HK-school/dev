@@ -34,7 +34,7 @@ define(['jquery', 'private/list'], function($, li) {
 
     //页面视频播放模版
     function video(src1) {
-        var tmpl = "<video width='640' height='347' controls='controls'>" +
+        var tmpl = "<video width='640' height='347' autoplay='autoplay' controls='controls'>" +
             "<source src=" + src1 + " type='video/mp4'>" +
             "Your browser does not support the video tag." +
             "</video>";
@@ -50,7 +50,6 @@ define(['jquery', 'private/list'], function($, li) {
             $('#player').html(video(num1[num].mp4));
             $('#vr-title-ul').html(all_list(num1));
         } else {
-            console.log(123)
             $('#player').html(video(num1[Num1][num].mp4));
             $('#vr-title-ul').html(all_list(num1[Num1]));
         }
