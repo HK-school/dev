@@ -46,6 +46,7 @@ define(['jquery'], function($) {
             "</ul>" +
             "</div>" +
             "<a class='login' id='login'>登录</a>" +
+            "<a class='exit' id='exit' style='display:none;position: absolute;right: 0;top: 17px;width: 70px;height: 26px;font-size: 12px;line-height: 26px;text-align: center;background: #51b9e8;border-radius: 13px;'>退出</a>" +
             "</div>" +
             "</div>";
         return tmpl;
@@ -122,6 +123,17 @@ define(['jquery'], function($) {
             return localStorage.setItem('a', w);
         }
     }
+    //是否存有localStorage
+    (function() {
+        var id = localStorage.getItem('a');
+        if (id) {
+            $('#login').hide();
+            $('#exit').show();
+        } else {
+            $('#login').show();
+            $('#exit').hide();
+        }
+    })()
     $(".course").click(function() {
         var id = localStorage.getItem('a');
         if (id) {
@@ -141,11 +153,23 @@ define(['jquery'], function($) {
     //打开登陆
     var login = document.getElementById('login');
     var close = document.getElementById('close');
+    var exit = document.getElementById('exit');
+    exit.onclick = function() {
+        localStorage.setItem('a', '');
+        $('#login').show();
+        $('#exit').hide();
+    }
     login.onclick = function() {
         $('.land').fadeIn();
     }
     close.onclick = function() {
         $('.land').fadeOut();
+    }
+
+    //推出登陆
+    function land() {
+        $('#login').hide();
+        $('#exit').show();
     }
 
     /*代理商登陆*/
@@ -163,6 +187,7 @@ define(['jquery'], function($) {
             success: function(data) {
                 if (data.state == "success") {
                     set(data.code);
+                    land();
                     $('.land').hide();
                 } else {
                     alert("登录失败");
