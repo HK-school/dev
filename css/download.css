@@ -365,7 +365,7 @@ ul.f-nav li a {
     margin-top: 14px;
     line-height: 24px;
     border-radius: 12px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .container .container-title div ul .on {
@@ -373,11 +373,12 @@ ul.f-nav li a {
     color: #333;
     font-weight: bolder;
 }
-.container-title li a{
-    padding:0 10px;
-    display: block;
 
+.container-title li a {
+    padding: 0 10px;
+    display: block;
 }
+
 .container-title .ul-1 li {
     font-size: 14px;
 }
@@ -402,6 +403,7 @@ ul.f-nav li a {
     background: #2aabe6;
     color: #fff !important;
 }
+
 .ul-2 a:hover,
 .ul-1 a:hover {
     color: #fff;
@@ -424,9 +426,9 @@ ul.f-nav li a {
     background: #ececec;
 }
 
-.c-main-img img{
+.c-main-img img {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .container-main ul li:nth-child(3n-1) {
@@ -458,10 +460,89 @@ ul.f-nav li a {
     vertical-align: bottom;
     margin-left: 4px;
 }
-.container .actives{
-    color:#fff !important;
-    background:#2aabe6;
+
+.container .actives {
+    color: #fff !important;
+    background: #2aabe6;
 }
-.container .actives a{
-    color:#fff;
+
+.container .actives a {
+    color: #fff;
+}
+
+.land {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.land-content {
+    width: 350px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -125px;
+    background: #fff;
+}
+
+.lc-title {
+    height: 44px;
+    width: 100%;
+    line-height: 44px;
+    color: #888;
+    font-weight: bolder;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #bbb;
+    position: relative;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-image: url('../img/close.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.lc-main p {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.lc-main p input {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 50%;
+}
+
+.lcm-span {
+    margin-right: 1em;
+}
+
+.lcm-land {
+    width: 30% !important;
+    margin-left: 35%;
+    height: 36px;
+    line-height: 36px;
+    background: #86c744;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 3px;
 }

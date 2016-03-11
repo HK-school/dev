@@ -174,18 +174,6 @@
     </div>
     <script>
     var APP_NAME = 'school';
-    //school轮播的播放
-    (function() {
-        var time = 1;
-        setInterval(function() {
-            time == 1 ? time = 2 : time = 1;
-            $('.banner img:nth-child(' + time + ')').show().addClass('fadeIn animated').siblings('img').hide();
-            $('#banner-ul li:nth-child(' + time + ')').addClass('li-on').siblings('li').removeClass('li-on');
-            setTimeout(function(){
-                $('.banner img').removeClass('animated fadeIn');
-            }, 1500);
-        }, 3000);
-    })();
     </script>
     <script data-main="js/main" src="js/require.js"></script>
 </body>

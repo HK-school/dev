@@ -331,7 +331,7 @@ ul.f-nav li a {
     margin-top: 14px;
     line-height: 24px;
     border-radius: 12px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .container .container-title div ul .on {
@@ -339,10 +339,10 @@ ul.f-nav li a {
     color: #333;
     font-weight: bolder;
 }
-.container-title li a{
-    padding:0 10px;
-    display: block;
 
+.container-title li a {
+    padding: 0 10px;
+    display: block;
 }
 
 .container .container-title div .ul-1 li {
@@ -369,79 +369,167 @@ ul.f-nav li a {
     background: #2aabe6;
     color: #fff !important;
 }
+
 .ul-2 a:hover,
 .ul-1 a:hover {
     color: #fff;
 }
-.container .actives{
-    color:#fff !important;
-    background:#2aabe6;
+
+.container .actives {
+    color: #fff !important;
+    background: #2aabe6;
 }
-.container .actives a{
-    color:#fff;
+
+.container .actives a {
+    color: #fff;
 }
-.container-main{
-    padding-top:40px;
-    overflow:hidden;
+
+.container-main {
+    padding-top: 40px;
+    overflow: hidden;
 }
 
 .material-img {
     display: inline-block;
     vertical-align: top;
-    min-height:300px;
+    min-height: 300px;
     max-height: 740px;
     width: 588px;
-    padding:6px;
-    background:#ececec;
+    padding: 6px;
+    background: #ececec;
     overflow-y: auto;
 }
-.material-img img{
+
+.material-img img {
     width: 100%;
 }
+
 .material-info {
-    width:32%;
+    width: 32%;
     float: right;
 }
-.material-info a{
+
+.material-info a {
     display: block;
     width: 100%;
-    height:70px;
+    height: 70px;
     border-radius: 16px;
-    background:#73d46b;
+    background: #73d46b;
     font-size: 36px;
-    color:#fff;
+    color: #fff;
     line-height: 70px;
     text-align: center;
 }
-.material-info h2{
-    padding-top:22px;
+
+.material-info h2 {
+    padding-top: 22px;
     font-weight: normal;
-    color:#999;
-    height:40px;
-    margin-bottom:10px;
-    border-bottom:#e5e5e5 solid 1px;
+    color: #999;
+    height: 40px;
+    margin-bottom: 10px;
+    border-bottom: #e5e5e5 solid 1px;
     font-size: 14px;
     line-height: 40px;
 }
-.material-info h2 span{
+
+.material-info h2 span {
     display: inline-block;
     width: 32%;
-    padding-left:12%;
-
+    padding-left: 12%;
 }
-.material-info span.look{
+
+.material-info span.look {
     background: url("../img/ic-school1.png") 16px center no-repeat;
 }
-.material-info span.down{
+
+.material-info span.down {
     background: url("../img/ic-school2.png") 16px center no-repeat;
 }
-.material-info p{
+
+.material-info p {
     font-size: 14px;
-    color:#999;
+    color: #999;
     line-height: 30px;
 }
-.material-info p span{
-    display: inline-block;
-    width:72px;
 
+.material-info p span {
+    display: inline-block;
+    width: 72px;
+}
+
+.land {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.land-content {
+    width: 350px;
+    height: 250px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -125px;
+    background: #fff;
+}
+
+.lc-title {
+    height: 44px;
+    width: 100%;
+    line-height: 44px;
+    color: #888;
+    font-weight: bolder;
+    font-family: '微软雅黑';
+    font-size: 16px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 1px solid #bbb;
+    position: relative;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background-image: url('../img/close.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.lc-main p {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.lc-main p input {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 50%;
+}
+
+.lcm-span {
+    margin-right: 1em;
+}
+
+.lcm-land {
+    width: 30% !important;
+    margin-left: 35%;
+    height: 36px;
+    line-height: 36px;
+    background: #86c744;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 3px;
 }

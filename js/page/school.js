@@ -1,4 +1,31 @@
 define(['jquery'], function($) {
+    (function() {
+        var time = 1;
+        var set1 = 0;
+        var set = function() {
+            set1 = setInterval(function() {
+                time == 1 ? time = 2 : time = 1;
+                setting(time);
+            }, 3000);
+        }
+        set();
+        $('#banner-ul li').click(function(event) {
+            clearInterval(set1);
+            var _num = $(this).index() + 1;
+            _num == 1 ? time = 2 : time = 1;
+            setting(_num);
+            set();
+        });
+
+        function setting(num) {
+            $('.banner img:nth-child(' + num + ')').show().addClass('fadeIn animated').siblings('img').hide();
+            $('#banner-ul li:nth-child(' + num + ')').addClass('li-on').siblings('li').removeClass('li-on');
+            setTimeout(function() {
+                $('.banner img').removeClass('animated fadeIn');
+            }, 1500);
+        }
+    })();
+
     $('.box1 li img').hover(function() {
         $(this).addClass('animated rotateFox');
     }, function() {

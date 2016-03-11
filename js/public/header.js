@@ -31,21 +31,20 @@ define(['jquery'], function($) {
             "<ul>" +
             "<li><a href='school.html'>首页</a></li>" +
             "<li class='course'>" +
-            "<a href='courses.html'>课程体系</a>" +
+            "<a>课程体系</a>" +
             "<div class='more'>" +
             "<a href='courses.html?1'>管理类</a>" +
             "<a href='courses.html?2'>开拓市场</a>" +
             "<a href='courses.html?3'>企业文化类</a>" +
-            // "<a href='courses.html?4'>职业素养类</a>" +
             "<a href='courses.html?4'>专业技能类</a>" +
             "</div>" +
             "</li>" +
-            "<li><a href='resourdownload.html?type=0'>资料下载</a></li>" +
+            "<li class='resour'><a>资料下载</a></li>" +
             "<li><a href='teacher.html'>讲师风采</a></li>" +
             "<li><a href='school_about.html'>关于我们</a></li>" +
             "</ul>" +
             "</div>" +
-            "<a class='login' href='#'>登录</a>" +
+            "<a class='login' id='login'>登录</a>" +
             "</div>" +
             "</div>";
         return tmpl;
@@ -97,8 +96,80 @@ define(['jquery'], function($) {
             "</div>" +
             "</div>" +
             "</div>" +
+            "</div>" +
+            "<div class='land'>" +
+            "<div class='land-content'>" +
+            "<div class='lc-title'>代理商登陆 <span class='close' id='close'></span></div>" +
+            "<div class='lc-main'>" +
+            "<p><span>邀请码：</span><input type='text' id='username'></p>" +
+            "<p><span class='lcm-span'>密</span><span>码：</span><input type='text' id='password'></p>" +
+            "<p class='lcm-land' id='btnn'>登陆</p>" +
+            "</div>" +
+            "</div>" +
             "</div>";
         return tmpl;
     }
     $('body').append(foot_htm());
+
+    //初始化判断
+    function set(w) {
+        if (localStorage.getItem('a') != null) {
+            var storage = localStorage.getItem('a');
+            var storages = storage + '|' + w;
+            localStorage.setItem('a', storages);
+        } else {
+            return localStorage.setItem('a', w);
+        }
+    }
+    $(".course").click(function() {
+        var id = localStorage.getItem('a');
+        if (id) {
+            window.location.href = "courses.html";
+        } else {
+            $('.land').fadeIn();
+        }
+    });
+    $(".resour").click(function() {
+        var id = localStorage.getItem('a');
+        if (id) {
+            window.location.href = "resourdownload.html?type=0";
+        } else {
+            $('.land').fadeIn();
+        }
+    });
+    //打开登陆
+    var login = document.getElementById('login');
+    var close = document.getElementById('close');
+    login.onclick = function() {
+        $('.land').fadeIn();
+    }
+    close.onclick = function() {
+        $('.land').fadeOut();
+    }
+
+    /*代理商登陆*/
+    var oBtn = document.getElementById('btnn');
+    oBtn.onclick = function() {
+        var user = document.getElementById('username').value;
+        var pass = document.getElementById('password').value;
+        $.ajax({
+            url: "http://www.51aigegou.cn/aigegou/ws/webLogin",
+            type: "post",
+            data: { "code": user, 'password': pass },
+            dataType: "jsonp",
+            jsonp: 'callback',
+            cache: false,
+            success: function(data) {
+                if (data.state == "success") {
+                    set(data.code);
+                    $('.land').hide();
+                } else {
+                    alert("登录失败");
+                }
+            },
+            error: function() {
+                alert("失败！");
+            }
+        });
+    }
 })
