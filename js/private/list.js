@@ -21,7 +21,7 @@
 //}]
 
 var school = [{
-    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_cctv.mp4',
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_birthday.mp4',
     img: 'img/data/img1.jpg',
     titles: '员工生日会',
     typer:'mp4',
@@ -177,7 +177,7 @@ var course = [
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_ds.mp4',
         img: 'img/data/img2.jpg',
-        titles: '爱个够购大事记',
+        titles: '爱个购大事记',
         title2: '',
         num: '8934',
         typer:'mp4',
