@@ -1,14 +1,26 @@
 define(['jquery', 'private/list'], function($, li) {
     //内容部分
     function content(tmpl) {
-        var tmpl = "<li data-num=" + tmpl.row + ">" +
-            "<p class='c-main-img'><img src=" + tmpl.img + "></p>" +
-            "<div class='c-main-intro'>" +
-            "<p class='p-1'>" + tmpl.titles + "</p>" +
-            "<p class='p-2'>" + tmpl.title2 + "</p>" +
-            "<p class='p-3'><span>" + tmpl.num + "</span>已学习</p>" +
-            "</div>" +
-            "</li>"
+        if(tmpl.typer=='mp4'){
+            var tmpl = "<li data-num=" + tmpl.row + " class='videoLink'>" +
+                "<p class='c-main-img video-img'><img src=" + tmpl.img + "></p>" +
+                "<div class='c-main-intro'>" +
+                "<p class='p-1'>" + tmpl.titles + "</p>" +
+                "<p class='p-2'>" + tmpl.title2 + "</p>" +
+                "<p class='p-3'><span>" + tmpl.num + "</span>已学习</p>" +
+                "</div>" +
+                "</li>";
+        }else{
+            var tmpl = "<li data-num=" + tmpl.row + ">" +
+                "<p class='c-main-img'><a href='material_download.html?type=5&row=" + tmpl.row + "&id=" + tmpl.id + "'><img src=" + tmpl.img + "></p>" +
+                "<div class='c-main-intro'>" +
+                "<p class='p-1'>" + tmpl.titles + "</p>" +
+                "<p class='p-2'>" + tmpl.title2 + "</p>" +
+                "<p class='p-3'><span>" + tmpl.num + "</span>已学习</p>" +
+                "</div>" +
+                "</li>";
+        }
+
         return tmpl;
     }
 
@@ -31,11 +43,11 @@ define(['jquery', 'private/list'], function($, li) {
     }
 
     //加上播放的图片
-    $('body').on('mouseenter', '.c-main-img', function() {
+    $('body').on('mouseenter', '.video-img', function() {
         $(this).append("<img class='hci-img' src='img/ic-vedio1.png' />");
         $(this).children('.hci-img').fadeIn(500);
     });
-    $('body').on('mouseleave', '.c-main-img', function() {
+    $('body').on('mouseleave', '.video-img', function() {
         $(this).children('.hci-img').remove();
     })
 
@@ -46,7 +58,7 @@ define(['jquery', 'private/list'], function($, li) {
     });
 
     //播放视频的跳转
-    $('body').on('click', '#container-main-li li', function() {
+    $('body').on('click', '.videoLink', function() {
         var num = $(this).index();
         var num1 = 'course';
         var num2 = $(this).attr('data-num');

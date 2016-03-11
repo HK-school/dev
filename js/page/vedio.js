@@ -24,8 +24,10 @@ define(['jquery', 'private/list'], function($, li) {
     function all_list(lists) {
         var tmpl = '';
         for (var i = 0; i < lists.length; i++) {
-            tmpl += list(lists[i]);
-        };
+            if(lists[i].typer=="mp4"){
+                tmpl += list(lists[i]);
+            }
+        }
         return tmpl;
     }
 
@@ -44,7 +46,6 @@ define(['jquery', 'private/list'], function($, li) {
         var Num = parseInt(num) + 1;
         var Num1 = parseInt(num2) - 1;
         var num1 = eval(num1);
-        console.log(Num, num2, num1)
         if (num2 == '') {
             $('#player').html(video(num1[num].mp4));
             $('#vr-title-ul').html(all_list(num1));

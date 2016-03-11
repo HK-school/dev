@@ -358,21 +358,25 @@ ul.f-nav li a {
     display: inline-block;
 }
 
-.container .container-title div ul li {
+.container-title li {
     display: inline-block;
-    width: 80px;
     text-align: left;
-    height: 30px;
-    margin-top: 11px;
-    line-height: 30px;
-    border-radius: 5px;
-    cursor: pointer;
+    height: 24px;
+    margin-top: 14px;
+    line-height: 24px;
+    border-radius: 12px;
+    padding:0 10px;
+    overflow:hidden;
 }
 
 .container .container-title div ul .on {
     font-size: 14px;
     color: #333;
     font-weight: bolder;
+}
+.container-title li a{
+    display: block;
+
 }
 
 .container .container-title div .ul-1 li {
@@ -407,7 +411,6 @@ ul.f-nav li a {
 
 .container-main ul li {
     width: 300px;
-    height: 280px;
     float: left;
 }
 
@@ -422,7 +425,6 @@ ul.f-nav li a {
 }
 
 .c-main-intro {
-    height: 40px;
     margin-top: 10px;
     font-size: 14px;
     position: relative;
@@ -442,7 +444,10 @@ ul.f-nav li a {
 .c-main-intro p {
     margin-bottom: 10px;
 }
-
+.ul-2 a:hover,
+.ul-1 a:hover {
+    color: #fff;
+}
 .c-main-intro .p-1 {
     color: #333;
     font-size: 16px;
@@ -461,9 +466,12 @@ ul.f-nav li a {
     font-size: 12px;
 }
 
-.actives {
-    color: #fff;
-    background: #2aabe6;
+.container .actives{
+    color:#fff !important;
+    background:#2aabe6;
+}
+.container .actives a{
+    color:#fff;
 }
 
 .hci-img {
