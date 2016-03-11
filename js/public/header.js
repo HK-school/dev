@@ -36,7 +36,8 @@ define(['jquery'], function($) {
             "<a href='courses.html?1'>管理类</a>" +
             "<a href='courses.html?2'>开拓市场</a>" +
             "<a href='courses.html?3'>企业文化类</a>" +
-            "<a href='courses.html?4'>专业技能类</a>" +
+            "<a href='courses.html?4'>职业素养类</a>" +
+            "<a href='courses.html?5'>专业技能类</a>" +
             "</div>" +
             "</li>" +
             "<li class='resour'><a>资料下载</a></li>" +
