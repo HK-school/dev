@@ -7,7 +7,7 @@ define(['jquery','private/material_list','private/list'], function($) {
 
 		var html='<a href="'+ m_list[type].list[id].url +'">立即下载</a>'
 			+   '<div class="info">'
-			+   '<h2><span class="look">269</span><span class="down">455</span></h2>'
+			+   '<h2><span class="look">'+ m_list[type].list[id].looknum +'</span><span class="down">'+ m_list[type].list[id].downnum +'</span></h2>'
 			+   '<p><span>内容</span>'+ m_list[type].list[id].titles +'</p>'
 			+   '<p><span>格式</span>'+ m_list[type].list[id].type +'</p>'
 			+   '<p><span>体积</span>'+ m_list[type].list[id].cubage +'</p>'
@@ -19,7 +19,7 @@ define(['jquery','private/material_list','private/list'], function($) {
 		$('.material-img').html('<img src="'+ course[row][id].img +'">');
 		var html='<a href="'+ course[row][id].url +'">立即下载</a>'
 			+   '<div class="info">'
-			+   '<h2><span class="look">269</span><span class="down">455</span></h2>'
+			+   '<h2><span class="look">'+ course[row][id].looknum +'</span><span class="down">'+ course[row][id].downnum +'</span></h2>'
 			+   '<p><span>内容</span>'+ course[row][id].titles +'</p>'
 			+   '<p><span>格式</span>'+ course[row][id].typer +'</p>'
 			+   '<p><span>体积</span>'+ course[row][id].cubage +'</p>'

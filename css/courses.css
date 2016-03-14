@@ -463,6 +463,13 @@ ul.f-nav li a {
 .c-main-intro .p-3 {
     color: #999;
     font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
 }
 
 .container .actives{
