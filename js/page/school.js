@@ -1,11 +1,11 @@
 define(['jquery'], function($) {
+    var screenH = $(window).height();
+    var screenW = $(window).width();
     //报名页面
     (function() {
         var x = 0;
         var y = 0;
-        var screenH = $(window).height();
         var sH = screenH;
-        var screenW = $(window).width();
         var sW = screenW;
 
         function loop() {
