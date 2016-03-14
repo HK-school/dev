@@ -604,9 +604,15 @@ ul.f-nav li a {
     position: fixed;
     top:0;
     right:0;
-    width: 350px;
-    height:240px;
+    width: 280px;
+    height:192px;
     z-index: 100;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.online-school img {
+    width: 100%;
+    height:100%;
 }
 .online-school span{
     width:30px;

@@ -9,21 +9,21 @@ define(['jquery'], function($) {
         var sW = screenW;
 
         function loop() {
-            sH - 240 <= x ? x1() : x2();
-            sW - 350 <= y ? y1() : y2();
+            sH - 192 <= x ? x1() : x2();
+            sW - 280 <= y ? y1() : y2();
             var dom = $('.online-school');
             dom.css({
                 'top': x,
                 'right': y
             });
             function x1(){
-                x--; sH = 240
+                x--; sH = 192
             }
             function x2(){
                x++; sH = screenH 
             }
             function y1(){
-                y--; sW = 350
+                y--; sW = 280
             }
             function y2(){
                y++; sW = screenW 
