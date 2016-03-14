@@ -600,3 +600,11 @@ ul.f-nav li a {
     text-align: center;
     border-radius: 3px;
 }
+.online-school {
+    position: fixed;
+    top:0;
+    right:0;
+    width: 300px;
+    height:300px;
+    z-index: 100;
+}
