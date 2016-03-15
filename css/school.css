@@ -602,7 +602,7 @@ ul.f-nav li a {
 }
 .online-school {
     position: fixed;
-    top:0;
+    top:60px;
     right:0;
     width: 280px;
     height:192px;

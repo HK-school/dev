@@ -1,37 +1,5 @@
 define(['jquery'], function($) {
     var screenH = $(window).height();
-    var screenW = $(window).width();
-    //报名页面
-    (function() {
-        var x = 0;
-        var y = 0;
-        var sH = screenH;
-        var sW = screenW;
-
-        function loop() {
-            sH - 192 <= x ? x1() : x2();
-            sW - 280 <= y ? y1() : y2();
-            var dom = $('.online-school');
-            dom.css({
-                'top': x,
-                'right': y
-            });
-            function x1(){
-                x--; sH = 192
-            }
-            function x2(){
-               x++; sH = screenH 
-            }
-            function y1(){
-                y--; sW = 280
-            }
-            function y2(){
-               y++; sW = screenW 
-            }
-            requestAnimationFrame(loop);
-        }
-        loop();
-    })();
     
     //关闭报名页面
     $('.online-school span').click(function(event) {
