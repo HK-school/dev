@@ -26,7 +26,7 @@ define(['jquery'], function($) {
     function head_htm(tmpl) {
         var tmpl = "<div class='header'>" +
             "<div class='header-box'>" +
-            "<a href='#' class='logo'></a>" +
+            "<a href='http://www.aigegou.com/' class='logo'></a>" +
             "<div class='h-nav'>" +
             "<ul>" +
             "<li><a href='school.html'>首页</a></li>" +
@@ -45,6 +45,7 @@ define(['jquery'], function($) {
             "<li><a href='school_about.html'>关于我们</a></li>" +
             "</ul>" +
             "</div>" +
+            "<a class='school-index' href='http://www.aigegou.com/bschool.html'>商学院首页</a>" +
             "<a class='login' id='login'>登录</a>" +
             "<a class='exit' id='exit' style='display:none;position: absolute;right: 0;top: 17px;width: 70px;height: 26px;font-size: 12px;line-height: 26px;text-align: center;background: #51b9e8;border-radius: 13px;'>退出</a>" +
             "</div>" +

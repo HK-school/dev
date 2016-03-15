@@ -71,7 +71,7 @@ li {
     position: relative;
     width: 710px;
     margin: 0 auto;
-    padding: 0 70px 0 220px;
+    padding: 0 170px 0 220px;
 }
 
 .header .logo {
@@ -95,7 +95,18 @@ li {
     background: #51b9e8;
     border-radius: 13px;
 }
-
+.header .school-index {
+    position: absolute;
+    right: 80px;
+    top: 17px;
+    width: 90px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    background: #51b9e8;
+    border-radius: 13px;
+}
 .h-nav ul {
     font-size: 0;
 }
