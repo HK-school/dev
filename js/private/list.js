@@ -50,6 +50,14 @@ var school = [{
 
 var course = [
     [{
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_tdsz.mp4',
+        img: 'img/data/manager4.jpg',
+        titles: '打造高绩效之团队塑造花絮',
+        title2: '王楠 高绩效之团队塑',
+        num: '482',
+        typer:'mp4',
+        row:'1'
+    },{
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_leader.mp4',
         img: 'img/data/manager2.jpg',
         titles: '领袖演讲：激发演说力潜能，情景实战训练',
@@ -58,7 +66,7 @@ var course = [
         typer:'mp4',
         row:'1'
     },{
-        id:2,
+        id:3,
         url: 'http://source.aigegou.com/img/gl1.pdf',
         img: 'img/data/manager1.jpg',
         titles: '团队塑造：帮职业经理人打造高绩效团队',
@@ -71,7 +79,7 @@ var course = [
         cubage:'2.34MB',
         time:''
     },{
-        id:3,
+        id:4,
         url: 'http://source.aigegou.com/img/gl2.ppt',
         img: 'img/data/manager3.jpg',
         titles: '职业经理人晋职演说',
@@ -145,6 +153,14 @@ var course = [
     }],
     //开拓市场类
     [{
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_jthy.mp4',
+        img: 'img/data/img9.jpg',
+        titles: '爱个购家庭会议之第二季度工作重点',
+        title2: '',
+        num: '268',
+        typer:'mp4',
+        row:'3'
+    },{
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_birthday.mp4',
         img: 'img/data/img1.jpg',
         titles: '员工生日会',
@@ -211,7 +227,15 @@ var course = [
     }],
     //企业文化类
      [{
-         id:1,
+         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_zysysz.mp4',
+         img: 'img/data/job9.jpg',
+         titles: '职业素养塑造',
+         title2: '职业化系列课程',
+         num: '4903',
+         typer:'mp4',
+         row:'4'
+     },{
+         id:2,
          url: 'http://source.aigegou.com/img/zysy1.ppt',
          img: 'img/data/job1.jpg',
          titles: '沟通技巧',
@@ -224,7 +248,7 @@ var course = [
          cubage:'2.5MB',
          time:''
      }, {
-         id:2,
+         id:3,
          url: 'http://source.aigegou.com/img/zysy2.ppt',
          img: 'img/data/job2.jpg',
          titles: '目标管理和时间管理',
@@ -237,7 +261,7 @@ var course = [
          cubage:'2.43MB',
          time:''
      }, {
-         id:3,
+         id:4,
          url: 'http://source.aigegou.com/img/zysy3.pptx',
          img: 'img/data/job3.jpg',
          titles: '商务礼仪',
@@ -250,7 +274,7 @@ var course = [
          cubage:'9.26MB',
          time:''
      }, {
-         id:4,
+         id:5,
          url: 'http://source.aigegou.com/img/zysy4.pptx',
          img: 'img/data/job4.jpg',
          titles: '拖延症',
@@ -263,7 +287,7 @@ var course = [
          cubage:'2.28MB',
          time:''
      }, {
-         id:5,
+         id:6,
          url: 'http://source.aigegou.com/img/zysy5.ppt',
          img: 'img/data/job5.jpg',
          titles: '赞美的技巧',
@@ -276,7 +300,7 @@ var course = [
          cubage:'1.04MB',
          time:''
      }, {
-         id:6,
+         id:7,
          url: 'http://source.aigegou.com/img/zysy6.pptx',
          img: 'img/data/job6.jpg',
          titles: '执行力',
@@ -289,7 +313,7 @@ var course = [
          cubage:'187KB',
          time:''
      }, {
-         id:7,
+         id:8,
          url: 'http://source.aigegou.com/img/zysy7.pptx',
          img: 'img/data/job7.jpg',
          titles: '职业化素养塑造',
@@ -302,7 +326,7 @@ var course = [
          cubage:'2.09MB',
          time:''
      }, {
-         id:8,
+         id:9,
          url: 'http://source.aigegou.com/img/zysy8.ppt',
          img: 'img/data/job8.jpg',
          titles: '不被竞争淘汰的人',
