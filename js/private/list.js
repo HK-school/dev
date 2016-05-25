@@ -137,7 +137,7 @@ var course = [
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_agent_manage.mp4',
         img: 'img/data/market6.jpg',
-        titles: '后台系统操作：代理商后操作演示',
+        titles: '后台系统操作：代理商后台操作演示',
         title2: '',
         num: '545',
         typer:'mp4',
