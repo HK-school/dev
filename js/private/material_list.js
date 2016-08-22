@@ -133,6 +133,56 @@ var m_list = [{
     }, {
         list: [{
             id: 1,
+            url: 'http://source.aigegou.com/0820dzsw.pptx',
+            img: 'img/data/type2.jpg',
+            titles: '电子商务',
+            looknum: '88',
+            downnum: '42',
+            type: 'ppt',
+            cubage: '4.7MB',
+            time: ''
+        }, {
+            id: 2,
+            url: 'http://source.aigegou.com/0820ddg.pptx',
+            img: 'img/data/type2.jpg',
+            titles: '叮大哥项目简介（赵丽娟）',
+            looknum: '102',
+            downnum: '56',
+            type: 'ppt',
+            cubage: '3MB',
+            time: ''
+        }, {
+            id: 3,
+            url: 'http://source.aigegou.com/0820hdch.pptx',
+            img: 'img/data/type2.jpg',
+            titles: '活动策划--凡雪林',
+            looknum: '64',
+            downnum: '24',
+            type: 'ppt',
+            cubage: '1.26MB',
+            time: ''
+        }, {
+            id: 4,
+            url: 'http://source.aigegou.com/0820store.ppt',
+            img: 'img/data/type2.jpg',
+            titles: '开发商户思路',
+            looknum: '62',
+            downnum: '32',
+            type: 'ppt',
+            cubage: '689KB',
+            time: ''
+        }, {
+            id: 5,
+            url: 'http://source.aigegou.com/0820tgs.ppt',
+            img: 'img/data/type2.jpg',
+            titles: '社区推广商',
+            looknum: '89',
+            downnum: '24',
+            type: 'ppt',
+            cubage: '651KB',
+            time: ''
+        }, {
+            id: 6,
             url: 'http://source.aigegou.com/img/pxkj1.pdf',
             img: 'img/data/type4.jpg',
             titles: '爱个购智能安防',
@@ -142,7 +192,7 @@ var m_list = [{
             cubage: '1751KB',
             time: ''
         }, {
-            id: 2,
+            id: 7,
             url: 'http://source.aigegou.com/img/pxkj2.ppt',
             img: 'img/data/type2.jpg',
             titles: '沟通技巧',
@@ -152,7 +202,7 @@ var m_list = [{
             cubage: '2568KB',
             time: ''
         }, {
-            id: 3,
+            id: 8,
             url: 'http://source.aigegou.com/img/pxkj3.pdf',
             img: 'img/data/type4.jpg',
             titles: '行业培训',
@@ -162,7 +212,7 @@ var m_list = [{
             cubage: '5257KB',
             time: ''
         }, {
-            id: 4,
+            id: 9,
             url: 'http://source.aigegou.com/img/pxkj4.pdf',
             img: 'img/data/type4.jpg',
             titles: '客情维护',
@@ -172,7 +222,7 @@ var m_list = [{
             cubage: '653KB',
             time: ''
         }, {
-            id: 5,
+            id: 10,
             url: 'http://source.aigegou.com/img/pxkj5.ppt',
             img: 'img/data/type2.jpg',
             titles: '目标管理与时间管理',
@@ -182,7 +232,7 @@ var m_list = [{
             cubage: '2489KB',
             time: ''
         }, {
-            id: 6,
+            id: 11,
             url: 'http://source.aigegou.com/img/pxkj6.pdf',
             img: 'img/data/type4.jpg',
             titles: '商户面谈思路及话术',
@@ -192,7 +242,7 @@ var m_list = [{
             cubage: '923KB',
             time: ''
         }, {
-            id: 7,
+            id: 12,
             url: 'http://source.aigegou.com/img/pxkj7.pptx',
             img: 'img/data/type2.jpg',
             titles: '商务礼仪',
@@ -202,7 +252,7 @@ var m_list = [{
             cubage: '9490KB',
             time: ''
         }, {
-            id: 8,
+            id: 13,
             url: 'http://source.aigegou.com/img/pxkj8.pdf',
             img: 'img/data/type4.jpg',
             titles: '十分钟路演',
@@ -212,7 +262,7 @@ var m_list = [{
             cubage: '6048KB',
             time: ''
         }, {
-            id: 9,
+            id: 14,
             url: 'http://source.aigegou.com/img/pxkj9.pdf',
             img: 'img/data/type4.jpg',
             titles: '塑造团队',
@@ -222,7 +272,7 @@ var m_list = [{
             cubage: '2402KB',
             time: ''
         }, {
-            id: 10,
+            id: 15,
             url: 'http://source.aigegou.com/img/pxkj10.pptx',
             img: 'img/data/type2.jpg',
             titles: '拖延症',
@@ -232,7 +282,7 @@ var m_list = [{
             cubage: '2339KB',
             time: ''
         }, {
-            id: 11,
+            id: 16,
             url: 'http://source.aigegou.com/img/pxkj11.pdf',
             img: 'img/data/type4.jpg',
             titles: '运营推广演讲PPT',
@@ -242,7 +292,7 @@ var m_list = [{
             cubage: '2307KB',
             time: ''
         }, {
-            id: 12,
+            id: 17,
             url: 'http://source.aigegou.com/img/pxkj12.ppt',
             img: 'img/data/type2.jpg',
             titles: '在销售中如何运用赞美的技巧',
@@ -252,7 +302,7 @@ var m_list = [{
             cubage: '1067KB',
             time: ''
         }, {
-            id: 13,
+            id: 18,
             url: 'http://source.aigegou.com/img/pxkj13.pptx',
             img: 'img/data/type2.jpg',
             titles: '执行力',
@@ -262,7 +312,7 @@ var m_list = [{
             cubage: '187KB',
             time: ''
         }, {
-            id: 14,
+            id: 19,
             url: 'http://source.aigegou.com/img/pxkj14.ppt',
             img: 'img/data/type2.jpg',
             titles: '职业经理人晋职',
@@ -272,7 +322,7 @@ var m_list = [{
             cubage: '486KB',
             time: ''
         }, {
-            id: 15,
+            id: 20,
             url: 'http://source.aigegou.com/img/pxkj15.pptx',
             img: 'img/data/type2.jpg',
             titles: '职业素养塑造',
@@ -282,7 +332,7 @@ var m_list = [{
             cubage: '2142KB',
             time: ''
         }, {
-            id: 16,
+            id: 21,
             url: 'http://source.aigegou.com/img/pxkj16.ppt',
             img: 'img/data/type2.jpg',
             titles: '做不被竞争淘汰的人',

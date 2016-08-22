@@ -1,9 +1,9 @@
 var school = [{
-    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_birthday.mp4',
-    img: 'img/data/img1.jpg',
-    titles: '员工生日会',
+    mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820gqqy.mp4',
+    img: 'img/data/img10.jpg',
+    titles: '股权签约仪式暨公司成立三周年庆典',
     typer:'mp4',
-    num: '13456'
+    num: '485'
 }, {
     mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_ds.mp4',
     img: 'img/data/img2.jpg',
@@ -95,43 +95,59 @@ var course = [
     ],
     //管理类
     [{
-        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_hs.mp4',
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820sqtgs.mp4',
+        img: 'img/data/market9.jpg',
+        titles: '社区推广商',
+        title2: '',
+        num: '246',
+        typer:'mp4',
+        row:'2'
+    }, {
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820scch.mp4',
         img: 'img/data/market1.jpg',
-        titles: '开发商户思路及话术：和商户面谈流程，沟通思路',
+        titles: '凡雪林：市场策划及方案',
         title2: '',
         num: '5454',
         typer:'mp4',
         row:'2'
     }, {
-        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_project.mp4',
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820hyzx.mp4',
         img: 'img/data/market2.jpg',
-        titles: '行业资讯：互联网发展史，行业资讯',
+        titles: '苗吉祥：行业资讯',
         title2: '',
         num: '5478',
         typer:'mp4',
         row:'2'
     }, {
-        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_client.mp4',
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820kqwh.mp4',
         img: 'img/data/market3.jpg',
-        titles: '客情维护：重视客情关怀，客户关系管理',
+        titles: '苗吉祥：客情维护',
         title2: '',
         num: '6865',
         typer:'mp4',
         row:'2'
     }, {
-        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_band.mp4',
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820ppyx.mp4',
         img: 'img/data/market4.jpg',
-        titles: '品牌运营：线上线下推广，网站建立，品牌管理',
+        titles: '刘尧尧：品牌营销',
         title2: '',
         num: '7856',
         typer:'mp4',
         row:'2'
     }, {
-        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_shop_yw.mp4',
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820dszs.mp4',
         img: 'img/data/market5.jpg',
-        titles: '电商知识：商城入驻，易卖会情况介绍',
+        titles: '钱吉：电商知识',
         title2: '',
         num: '1237',
+        typer:'mp4',
+        row:'2'
+    }, {
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820ddg.mp4',
+        img: 'img/data/market8.jpg',
+        titles: '叮大哥项目简介',
+        title2: '',
+        num: '324',
         typer:'mp4',
         row:'2'
     }, {
@@ -144,15 +160,31 @@ var course = [
         row:'2'
     }, {
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_store_manage.mp4',
-        img: 'img/data/market6.jpg',
+        img: 'img/data/market7.jpg',
         titles: '后台系统操作：商户后台操作演示',
         title2: '',
         num: '8765',
         typer:'mp4',
         row:'2'
+    }, {
+        mp4: 'http://7xl21j.com1.z0.glb.clouddn.com/20160616_store.mp3',
+        img: 'img/data/market10.jpg',
+        titles: '2016.6.16 yy培训录音商户开发',
+        title2: '',
+        num: '351',
+        typer:'mp4',
+        row:'2'
     }],
     //开拓市场类
     [{
+        mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/0820gqqy.mp4',
+        img: 'img/data/img10.jpg',
+        titles: '股权签约仪式暨公司成立三周年庆典',
+        title2: '',
+        num: '485',
+        typer:'mp4',
+        row:'3'
+    },{
         mp4: 'http://7xntr9.media1.z0.glb.clouddn.com/agg_jthy.mp4',
         img: 'img/data/img9.jpg',
         titles: '爱个购家庭会议之第二季度工作重点',

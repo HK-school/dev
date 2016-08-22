@@ -179,7 +179,7 @@ define(['jquery'], function($) {
         var user = document.getElementById('username').value;
         var pass = document.getElementById('password').value;
         $.ajax({
-            url: "http://www.51aigegou.cn/aigegou/ws/webLogin",
+            url: "http://shop.aigegou.com/agg/mobile/index.php?act=unlimited_invitation&op=agent_login",
             type: "post",
             data: { "code": user, 'password': pass },
             dataType: "jsonp",
